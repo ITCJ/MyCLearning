@@ -12,16 +12,16 @@ store + 8 printf
 
 int main ()
 {
-    long int store = 8;
-    long int store2 = 0;
-    long int a = 0;
+    long long int store = 8;
+    long long int store2 = 0;
+    long long int a = 0;
     int difference = 8;
-    int i = 1;
-    int cache = 0;
+    long long int i = 1;
+    long long int cache = 0;
     int number = 1, mask = 1;
 
     //数生成器
-    for (int j = 0; j < 128; j++)
+    for (int j = 0; j < 256; j++)
     {
 
         //转换二进制
@@ -48,7 +48,6 @@ int main ()
         {
             printf("\n");
         }
-        
         if (number++ == mask)
         {
             printf("\n");

@@ -13,7 +13,7 @@ int main ()
 
         /* Obtain thread number */
         tid = omp_get_thread_num();
-        printf("Hello World from thread = %d\n", tid);
+        printf("Hello, my first openMP demo from thread = %d\n", tid);
 
         /* Only master thread does this */
         if (tid == 0)

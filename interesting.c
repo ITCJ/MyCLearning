@@ -15,7 +15,7 @@ int main ()
     long long int store = 8;
     long long int store2 = 0;
     long long int a = 0;
-    int difference = 8;
+    int difference = 3;
     long long int i = 1;
     long long int cache = 0;
     int number = 1, mask = 1;
@@ -44,7 +44,7 @@ int main ()
         }
 
         //换行器
-        if (number%8 == 0)
+        if (number%6 == 0)
         {
             printf("\n");
         }
