@@ -5,7 +5,8 @@
             "label": "compile",
             "command": "gcc",
             "args": [
-                "${file}",   // 指定编译源代码文件             
+                "${file}",   // 指定编译源代码文件
+                "-fopenmp",   //使用openMP        
                 "-o",
                 "${fileDirname}/build/${fileBasenameNoExtension}.exe", // 指定输出文件名
                 "-O0",      // 优化级别
