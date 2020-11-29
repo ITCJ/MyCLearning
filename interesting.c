@@ -21,7 +21,7 @@ int main ()
     int number = 1, mask = 1;
 
     //数生成器
-    for (int j = 0; j < 256; j++)
+    for (int j = 0; j < 128; j++)
     {
 
         //转换二进制
