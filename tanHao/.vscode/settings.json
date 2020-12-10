@@ -8,7 +8,8 @@
         "7_1.C": "cpp",
         "9_1.C": "cpp",
         "11_1.C": "cpp",
-        "cmath": "c"
+        "cmath": "c",
+        "4_2.C": "cpp"
     },
     "C_Cpp.errorSquiggles": "Enabled"
 }
