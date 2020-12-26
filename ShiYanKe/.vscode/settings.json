@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "2_3.C": "cpp",
+        "4_3.C": "cpp",
+        "stdio.h": "c",
+        "3_3.C": "cpp",
+        "6_1.C": "cpp",
+        "7_1.C": "cpp",
+        "9_1.C": "cpp",
+        "11_1.C": "cpp",
+        "cmath": "c",
+        "4_2.C": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Enabled"
+}
