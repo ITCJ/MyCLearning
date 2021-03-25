@@ -75,6 +75,6 @@
      fwrite(s[j],2,7,fp);
 	 }                            
      fclose(fp);
-    
+    sdsad
     return 0;
     }
